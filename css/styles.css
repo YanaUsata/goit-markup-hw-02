@@ -1,2 +1,158 @@
-body {background-color: #E5E5E5;}
-.test-link {color: #2196F3;}
+:root{
+--main-color: #212121;
+--secondary-color: #757575;
+
+}
+body {background-color: #FFFFFF;
+    ;
+    font-family: Roboto, sans-serif;
+    color: #212121;
+    ;
+}
+.partlogo {color: #2196F3;}
+.partlogos {
+    color: #000000;
+}
+.partlogo-bottom {
+    color: #FFFFFF;
+}
+.const {color: #2196F3;}
+.btn-const {
+    background-color: #2196F3;
+    ;
+}
+
+.link:hover, 
+.link:focus 
+{color: #2196F3;}
+
+.btn:hover,
+.btn:focus
+{
+  color: #ffffff;
+  ;  
+}
+.btn {
+    cursor: pointer;
+}
+.list {list-style: none;}
+.link {
+    text-decoration: none;
+}
+.hero,
+.bottom {
+    background-color: #2F303A;
+}
+
+.book-btn {
+    cursor: pointer;
+    background-color: #2196F3;
+    width: 200px;
+height: 50px;
+left: 700px;
+top: 430px;
+}
+.hero-title{
+    font-weight: 900;
+font-size: 44px;
+line-height: 60px;
+/* or 136% */
+
+text-align: center;
+letter-spacing: 0.06em;
+text-transform: uppercase;
+
+color: #FFFFFF;
+}
+.features-list .hero-title{
+    font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+
+color: var(--main-color);
+}
+.features-title {
+font-weight: bold;
+font-size: 14px;
+line-height: 1,14;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+
+color: var(--main-color);
+
+}
+.about {
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 1,71;
+    
+    letter-spacing: 0.03em;
+    
+    color: var(--secondary-color);
+}
+.members {
+    background-color: #F5F4FA;
+    ;
+}
+.title {
+    font-weight: bold;
+font-size: 36px;
+line-height: 1,16;
+letter-spacing: 0.03em;
+
+color: var(--main-color);
+}
+
+.title-members {
+    font-weight: bold;
+font-size: 36px;
+line-height: 1,16;
+text-align: center;
+letter-spacing: 0.03em;
+
+color: var(--main-color);
+}
+.name {
+    font-weight: 500;
+font-size: 16px;
+line-height: 1,18;
+letter-spacing: 0.03em;
+
+color: var(--secondary-color);
+}
+.name-text {
+    font-weight: normal;
+font-size: 16px;
+line-height: 1,18;
+letter-spacing: 0.03em;
+
+color: var(--secondary-color);
+}
+.map {
+    font-weight: normal;
+font-size: 14px;
+line-height: 1,71;
+letter-spacing: 0.03em;
+
+color: #FFFFFF;
+}
+.contact {
+    font-weight: normal;
+font-size: 14px;
+line-height: 1,71;
+letter-spacing: 0.03em;
+
+color: rgba(255, 255, 255, 0.6);
+}
+.portfolio-title {
+    font-weight: bold;
+font-size: 18px;
+line-height: 2;
+letter-spacing: 0.06em;
+
+color: var(--main-color);
+}
